@@ -12,7 +12,7 @@ function lowerB(arr,target){
     }
 return low;
 }
-console.log(lowerB([2,4,5,6,8,9,10],5))
+console.log(lowerB([2,4,5,5,8,9,10],5))
 
 
 function upperB(arr,target){
@@ -30,4 +30,4 @@ function upperB(arr,target){
 return right;
 }
 
-console.log(upperB([2,4,5,6,8,9,10],5))
+console.log(upperB([2,4,5,5,8,9,10],5))
